@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <h1>Make me Orange</h1>
+    <h1>This is also Orange</h1>
+
+    <h2 id="underline">This is underline</h2>
+
+    <ul>
+      <li class="blue">Item 1</li>
+      <li class="blue">Item 2</li>
+      <li class="blue">Item 3</li>
+    </ul>
+
+    <p id="changetext">This text is awsome!!!!</p>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        //all of you javascript/jquery code goes below
+        //.css function .css("css property", "value")
+        $("h1").css("color","orange");
+        $("#underline").css("text-decoration","underline");
+        $(".blue").css("background-color","blue");
+
+        // .htm changes the text inside of the html element
+        $("#changetext").html("This is a magic trick!");
+
+
+      });
+
+
+    </script>
+  </body>
+</html>
