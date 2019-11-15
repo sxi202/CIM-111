@@ -1,0 +1,97 @@
+  @import url('https://fonts.googleapis.com/css?family=Lora:400,700&display=swap');
+
+  h1{
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    }
+
+  h2{
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  header{
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+
+    background-color: #db9833;
+    width: 900px;
+    height: auto;
+    padding: 20px;
+
+    border-top-width: 4px;
+    border-top-style: dashed;
+    border-top-color: black;
+
+    border-left-width: 4px;
+    border-left-style: dashed;
+    border-left-color: black;
+
+    border-right-width: 4px;
+    border-right-style: dashed;
+    border-right-color: black;
+
+    margin: 0 auto;
+    }
+
+  main{
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    background-color: #7e9a9a;
+    width: 900px;
+    height: auto;
+    padding: 20px;
+
+    border-left-width: 4px;
+    border-left-style: dashed;
+    border-left-color: black;
+
+    border-right: 4px;
+    border-right-style: dashed;
+    border-right-color: black;
+
+    border-bottom-width: 4px;
+    border-bottom-style: dashed;
+    border-bottom-color: black;
+
+    border-top-width: 4px;
+    border-top-style: solid;
+    border-top-color: #F5FFFA;
+
+    margin: auto;
+  }
+
+  #par1 p {
+    display: inline;
+  }
+
+  #fittext5 {
+    text-align: center;
+  }
+
+  section p {
+    width: 425px;
+    display: inline-block;
+  }
+
+  section img {
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    border: 3px solid #F5FFFA;
+  }
+
+  .sect1 {
+    padding-right: 230px;
+  }
+
+  .line {
+    text-align: left;
+  }
+  
+  footer p {
+    text-align: center;
+  }

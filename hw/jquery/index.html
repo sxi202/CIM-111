@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cooking with a Jamaica</title>
+    <link rel="stylesheet" href="css/desktop.css">
+
+    <style media="screen">
+
+    </style>
+  </head>
+  <body>
+      <header>
+        <h1 id="fittext1" class="nchange">Authenic Jamaican Curry Chicken</h1>
+      </header>
+    <main>
+      <section id="par1">
+        <h2 id="fittext3">Authentic Jamaican Cooking</h2>
+        <h2 class="line" id="item1">Shanika's Cusine</h2>
+        <p id="changetext">Corn Beef done the Jamaican way, is a favoured dish in the island because of its simplicity and minimal preparation time. This meal can be prepared for lunch or dinner. Many people have their own take on the recipe and will add extra ingredients accordingly. None-the-less, the recipe provided below will teach the basics of how to prepare this dish.</p>
+      </section>
+
+      <section id="par2">
+        <h2 id="fittext4">Ingredients List</h2>
+        <h2 class="line" id="item2">Read through throughly</h2>
+          <ul id="changetext2">
+            <li>1 Tin of Corn Beef</li>
+            <li>1/2 Tin of Mixed Carrots and Peas</li>
+            <li>1/2 Tin of Sweet Corn</li>
+            <li>1 tsp Black Pepper</li>
+            <li>3 tbs Ketchup</li>
+            <li>1/4 cup of Oil</li>
+            <li>1 small Tomato</li>
+            <li>1/4 of a big Onion</li>
+            <li>3 stalks Green Onion</li>
+            <li>3 cloves Garlic</li>
+          </ul>
+      </section>
+
+      <section class="par3">
+        <h2 class="line" id="fittext5">Directions</h2>
+        <p class="sect1">Get your tomato, onion, green onion, garlic cloves and wash them properly before choping them up into small pieces. Your end result should look like the picture on the right.</p>
+        <img class="par3" src="step1.jpg" alt="image1">
+      </section>
+
+      <section class="par3">
+        <p class="sect1">Choose your favourite frying pan to add the oil to. Turn the stove on medium heat and wait from for 2 -3 minutes until the oil is heated enough. In order to make sure that the oil's temperature is just right, put a piece of the diced vegtables in the oil. If the oil bubbles and makes popping noise after this is done, then the oil is ready. Toss all chopped up vegtables in the oil and stur until they are fully cooked.</p>
+        <img class="par3" src="step2.jpg" alt="image2">
+      </section>
+
+      <section class="par3">
+        <p class="sect1">Open the Corn Beef with the provided can opener. Put the beef in the pot and crush it up with a wooden spoon. Cover the pot with a lid and leave it to simmer for 5 - 8 minutes.</p>
+        <img class="par3" src="step3.jpg" alt="image3">
+      </section>
+
+      <section class="par3">
+        <p class="sect1">Add the sweet corn, carrots, peas, black pepper and ketchup to the Corn Beef. Stur mixture and add additional seasiongs if needed for extra flavouring. Eg. Maggi All Purpose or Red Pepper Flakes are some of the optional choices.</p>
+        <img src="step4.jpg" alt="image4">
+      </section>
+
+      <section class="par3">
+        <p class="sect1">Heat up the Corn Beef on low heat. Serve with desired side/s.</p>
+        <img class="par3" src="step5.jpg" alt="image5">
+      </section>
+
+      <footer id="fittext2">
+        <p>Enjoy</p>
+      </footer>
+    </main>
+
+      <script type="text/javascript" src="js/jquery.js"></script>
+      <script type="text/javascript">
+
+        $(document).ready(function(){
+
+        $("#item1").mouseenter(function(){
+
+          $("#changetext").html("Do not hover over the words 'ingredients list' until after you have read it. The ingredients list will disappear once you hover over it. :p");
+
+        });
+
+        $("#item2").mouseenter(function(){
+
+          $("#changetext2").html("Now that you have the ingredients, hover over directions. Do not move away from this section, or the instructions will disappear.");
+
+        });
+
+        $("#item2").mouseleave(function(){
+
+          $("#changetext2").html("");
+
+        });
+
+        $(".par3").mouseenter(function(){
+          $(".sect1").show();
+        });
+
+        $(".par3").mouseleave(function(){
+          $(".sect1").hide();
+        });
+
+        $(".line").css("text-decoration","underline");
+        $(".nchange").html("Corn Beef - The Jamaican Way");
+      });
+      </script>
+
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+      <script src="js/jquery.fittext.js"></script>
+
+      <script>
+        $("#fittext1").fitText();
+        $("#fittext2").fitText(1.1);
+        $("#fittext3").fitText(1.2);
+        $("#fittext4").fitText(1.1);
+        $("#fittext5").fitText(1.1);
+      </script>
+
+  </body>
+</html>
