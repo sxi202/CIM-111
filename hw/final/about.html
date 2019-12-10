@@ -18,16 +18,32 @@
     </nav>
 
     <main id="movemain">
-      <section>
+      <section class="par3">
         <div class="imgfloat">
           <h2 id="aboutmove">About</h2>
           <img class="imgfloat" src="images/graduation1.jpg" alt="Shanika's Photo" />
-          <p>I am a born and raised Jamaican who migrated to the United States of America for college. At the University of Miami, I major in Journalism and minor in Public Relations. I am passionate about writing and admire the literatures of arts with my favorite being poetry. In my college experience I became involved in different activities like UMTV, where I was apart of UniMiami and NewsVision. For further on-campus involvements I look forward in being apart of The Miami Hurricane, which is the university’s newspaper. I aspire to be in a career field that would bring me great joy and inspire me to strengthen my different skill levels. I am excited for what the future holds, as I continue to ponder on the many directions I could follow suit in.</p>
+          <p class="sect1">I am a born and raised Jamaican who migrated to the United States of America for college. At the University of Miami, I major in Journalism and minor in Public Relations. I am passionate about writing and admire the literatures of arts with my favorite being poetry. In my college experience I became involved in different activities like UMTV, where I was apart of UniMiami and NewsVision. For further on-campus involvements I look forward in being apart of The Miami Hurricane, which is the university’s newspaper. I aspire to be in a career field that would bring me great joy and inspire me to strengthen my different skill levels. I am excited for what the future holds, as I continue to ponder on the many directions I could follow suit in.</p>
         </div>
       </section>
     </main>
 
     <footer>
     </footer>
+
+      <script type="text/javascript" src="js/jquery.js"></script>
+      <script type="text/javascript">
+
+        $(document).ready(function(){
+
+        $(".par3").mouseenter(function(){
+          $(".sect1").show();
+        });
+
+        $(".par3").mouseleave(function(){
+          $(".sect1").hide();
+        });
+
+      });
+      </script>
   </body>
 </html>

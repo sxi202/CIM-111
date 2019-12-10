@@ -18,15 +18,31 @@
     </nav>
 
     <main>
-      <h2 class="topspace">Contact Information</h2>
+      <div id="section1toggle">
+        <h2 class="topspace">Contact Information</h2>
+      </div>
+
+      <div id="toggle">
         <address>
           <p>3528 Stevie Ave, Miami, Florida 33155</p>
         </address>
           <p>786-655-2222</p>
           <p>shanisaacs123@mii.edu</p>
+      </div>
     </main>
 
     <footer>
     </footer>
+
+      <script type="text/javascript" src="js/jquery.js"></script>
+      <script type="text/javascript">
+        $(document).ready(function(){
+          $("#section1toggle").click(function(){
+
+            $("#toggle").slideToggle(1000);
+          });
+
+          });
+        </script>
   </body>
 </html>
