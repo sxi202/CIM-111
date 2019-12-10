@@ -11,15 +11,24 @@
     width: 380px;
   }
 
-  .samplegrid {
-    width: 200px;
-    height: 100px;
+  nav {
+    width: 380px;
+  }
+
+  nav a {
+    width: 380px;
+    display: block;
+    text-align: center;
+  }
+
+  .samplegrid,.workgrid,.resumegrid,.resumegridEX,.navBox{
+    width: 380px;
+    display: block;
+    text-align: center;
   }
 
   main {
     width: 380px;
-  }
-
-  footer {
-    width: 380px;
+    display: block;
+    text-align: center;
   }
