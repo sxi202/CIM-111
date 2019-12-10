@@ -1,0 +1,25 @@
+@import "desktop.css";
+
+  body {
+    width: 380px;
+  }
+  header  {
+    width: 380px;
+  }
+
+  h1 {
+    width: 380px;
+  }
+
+  .samplegrid {
+    width: 200px;
+    height: 100px;
+  }
+
+  main {
+    width: 380px;
+  }
+
+  footer {
+    width: 380px;
+  }

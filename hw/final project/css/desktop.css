@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+  html {
+    background-color: rgb(243, 247, 237);
+  }
+
+  body {
+    margin: auto;
+    width: 960px;
+    height: auto;
+  }
+
+  header {
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  h1 {
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 700;
+    background-color: rgb(214, 255,240);
+    color: rgb(68, 68, 68);
+    width: 960px;
+  }
+
+  h2 {
+    color: rgb(68, 68, 68);
+  }
+
+  h3 {
+    color: rgb(68, 68,68);
+  }
+
+  img {
+    border: 1.5px solid rgb(68, 68, 68);
+  }
+
+  .navBox div {
+    width: 300px;
+    height: 130px;
+    text-align: center;
+    padding-top: 61px;
+  }
+
+  .navBox div a {
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+    vertical-align: middle;
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  nav {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 30px;
+  }
+
+  nav a {
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    padding: 5px;
+
+    font-family: 'sans-serif';
+    font-weight: 400px;
+    font-size: 25px;
+    color: rgb(127, 187, 255);
+    text-decoration: none;
+  }
+
+  main {
+    padding: 20px;
+    font-family: 'Roboto';
+    font-weight: 400px;
+  }
+
+  .samplegrid {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2em;
+  }
+
+ .contactbox3 {
+   margin-top: 20px;
+   background-color: rgb(194, 231, 218);
+  }
+  .contactbox3:hover {
+    background-color: rgb(214, 255, 240);
+   }
+
+  .workbox2 {
+    margin-top: 20px;
+    background-color: rgb(98, 144, 195);
+  }
+
+  .workbox2:hover {
+    background-color: rgb(127, 187, 255);
+  }
+
+  .aboutbox2 {
+    background-color: rgb(194, 231, 218);
+   }
+
+   .aboutbox2:hover {
+     background-color: rgb(214, 255, 240);
+   }
+
+   .resumebox3 {
+     background-color: rgb(98, 144, 195);
+   }
+
+   .resumebox3:hover {
+     background-color: rgb(127, 187, 255);
+   }
+
+  .imgfloat {
+    float: left;
+    margin-right: 30px;
+    margin-left: 20px;
+  }
+
+  .workgrid {
+    display: grid;
+    grid-template-rows: 650px 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 4em;
+    margin-top: -20px;
+  }
+
+  .topspace {
+    padding-top: 20px;
+  }
+
+  .resumegrid {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2em;
+    grid-auto-rows: minmax(100px, auto);
+    padding-top: 20px;
+  }
+
+  .resumegridEX {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 20px;
+  }
+
+  .resumegrid1 {
+    grid-column: 1;
+  }
+
+  .resumegrid2 {
+    grid-column: 2;
+  }
+
+  .resumegrid5 {
+    grid-column: 3;
+  }
+
+  .resumegrid3 {
+    grid-row: 2;
+  }
+
+  .resumegrid4 {
+    grid-row: 2;
+    padding-top: 50px;
+  }
+
+  .headerSpace {
+    padding-top: 20px;
+  }
+
+  .headerhome {
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+  }
+
+  #movemain {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    height: 400px;
+  }
+
+  #aboutmove {
+    padding-left: 20px;
+  }
