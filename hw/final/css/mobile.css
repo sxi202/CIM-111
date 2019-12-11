@@ -9,6 +9,7 @@
 
   h1 {
     width: 380px;
+    text-align: center;
   }
 
   nav {
@@ -21,10 +22,39 @@
     text-align: center;
   }
 
+  .imgbox1 {
+    padding-bottom: 20px;
+  }
+
+  .navBox {
+    padding-left: 40px;
+  }
+
+  .workbox2 {
+    margin-bottom: 20px;
+  }
+
   .samplegrid,.workgrid,.resumegrid,.resumegridEX,.navBox{
     width: 380px;
     display: block;
     text-align: center;
+  }
+
+  .imgfloat {
+    margin-bottom: 20px;
+  }
+
+  .lastspace {
+    padding-top: 20px;
+  }
+
+  .resumegrid2 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  .resumegrid4 {
+    padding-top: 20px;
   }
 
   main {
